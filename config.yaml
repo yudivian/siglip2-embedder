@@ -5,8 +5,8 @@ device: auto
 
 # Siglip 2 model to load from Hugging Face
 # Example: google/google/siglip2-so400m-patch14-224
-model_name: /home/yudivian/.cache/huggingface/hub/models--google--siglip2-base-patch16-naflex/snapshots/b53b807d3a2d5e2b3911292f2d69e5341cdc064c
+model_name: google/siglip2-base-patch16-naflex
 
 # Server configuration
 server_host: 0.0.0.0
-server_port: 9001
+server_port: 9000
