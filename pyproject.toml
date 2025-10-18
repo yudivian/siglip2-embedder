@@ -1,0 +1,20 @@
+[project]
+name = "siglip2-embedder-api"
+version = "1.4.0"
+description = "A microservice with FastAPI to generate embeddings with SigLIP 2"
+authors = [{ name = "Yudivián Almeida Cruz", email = "yudivian@email.com" }]
+requires-python = ">=3.8"
+
+dependencies = [
+    "torch>=2.1.0",
+    "transformers>=4.40.0",
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
+    "PyYAML>=6.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.23.0",
+    "python-multipart>=0.0.6",
+]
+
+[project.scripts]
+siglip2-embedder = "main:main"

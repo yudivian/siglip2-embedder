@@ -1,0 +1,12 @@
+# Configuration for the SigLIP 2 embedding generator
+
+# Device to use: auto, cuda, cpu
+device: auto
+
+# Siglip 2 model to load from Hugging Face
+# Example: google/google/siglip2-so400m-patch14-224
+model_name: /home/yudivian/.cache/huggingface/hub/models--google--siglip2-base-patch16-naflex/snapshots/b53b807d3a2d5e2b3911292f2d69e5341cdc064c
+
+# Server configuration
+server_host: 0.0.0.0
+server_port: 9001
