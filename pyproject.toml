@@ -1,8 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "siglip2-embedder-api"
-version = "1.4.0"
+version = "1.4.2"
 license = "MIT"
+license-files = ["LICENSE"]
 description = "A microservice with FastAPI to generate embeddings with SigLIP 2"
+readme = "README.md"
 authors = [{ name = "Yudivián Almeida Cruz", email = "yudivian@email.com" }]
 requires-python = ">=3.8"
 
@@ -19,3 +25,10 @@ dependencies = [
 
 [project.scripts]
 siglip2-embedder = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[project.urls]
+Homepage = "https://github.com/yudivian/siglip2-embedder"
+Issues = "https://github.com/yudivian/siglip2-embedder/issues"

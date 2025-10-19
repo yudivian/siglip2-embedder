@@ -30,6 +30,12 @@ This project provides a microservice and a command-line interface (CLI) to gener
 2.  **Create a virtual environment (recommended).**
 3.  **Install dependencies.** The project uses the dependencies listed in `pyproject.toml`.
 
+or
+
+\`\`\`bash
+pip install siglip2-embedder-api
+\`\`\`
+
 -----
 
 ## ⚙️ Configuration
